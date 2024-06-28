@@ -1,0 +1,67 @@
+{
+  "name": "8d38e870-53e2-4185-b993-ac872ab28918",
+  "displayName": "New order",
+  "form": {
+    "parameters": [ {
+      "displayName": "color",
+      "required": true,
+      "entityType": "@sys.color",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What color would you like?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "size",
+      "required": true,
+      "entityType": "@size",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What size do you want?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ok, let's a start a new order." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You have selected a $session.params.size, $session.params.color shirt." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Order Confirmation",
+    "name": "06b89e88-7d41-4638-85a5-cd756307e569"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'd like to collect a bit more information from you." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "576bb351-b8aa-463c-9450-44efb67565d1"
+  } ]
+}

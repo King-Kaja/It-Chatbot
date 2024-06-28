@@ -1,0 +1,115 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I want to place an order",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to buy a shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Order a shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Buy your ",
+      "auto": true
+    }, {
+      "text": "pink",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Make a purchase",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want a ",
+      "auto": true
+    }, {
+      "text": "small",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want a ",
+      "auto": true
+    }, {
+      "text": "large",
+      "parameterId": "size",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "red",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want a ",
+      "auto": true
+    }, {
+      "text": "blue",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a ",
+      "auto": true
+    }, {
+      "text": "yellow",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": " shirt",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "6bd74a03-64a4-4ad7-b5c1-c593cfaada35",
+  "displayName": "Order Confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You can pick up your order for a $session.params.size $session.params.color shirt in 7 to 10 business days. Goodbye." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "2946e023-cb3c-43f8-bf6b-4166604f3ef8"
+  } ]
+}

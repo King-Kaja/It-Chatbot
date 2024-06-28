@@ -1,0 +1,15 @@
+{
+  "name": "7d64f14b-75c3-44c6-b78d-2992d5281b71",
+  "displayName": "Store Hours",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Our store hours are from 1 am to 1 pm." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}
